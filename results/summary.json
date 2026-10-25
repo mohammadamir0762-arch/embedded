@@ -1,0 +1,176 @@
+{
+  "generated": "2026-10-25T14:21:55",
+  "static": {
+    "file": "static_20261025_140000_SIMULATED.csv",
+    "duration_min": 10.0,
+    "requests": 1201,
+    "ok": 1201,
+    "success_pct": 100.0,
+    "rtt_mean_ms": 20.5,
+    "rtt_median_ms": 20.1,
+    "rtt_p95_ms": 23.7,
+    "rtt_max_ms": 29.8,
+    "sample_rate_hz": 2.0,
+    "longest_gap_s": 0.5,
+    "alt_mean_m": 0.068,
+    "alt_std_m": 0.053,
+    "alt_p2p_m": 0.28,
+    "alt_drift_m_per_min": 0.014,
+    "pressure_std_hpa": 0.007,
+    "temp_start_c": 24.3,
+    "temp_end_c": 24.3,
+    "z_mean": 577.0,
+    "z_std": 0.84,
+    "z_p2p": 6
+  },
+  "stairs": {
+    "file": "stairs_20261025_140000_SIMULATED.csv",
+    "levels": [
+      {
+        "ref_m": 0.0,
+        "meas_m": 0.0,
+        "err_m": 0.0,
+        "std_m": 0.04,
+        "n": 110
+      },
+      {
+        "ref_m": 3.2,
+        "meas_m": 3.08,
+        "err_m": -0.12,
+        "std_m": 0.03,
+        "n": 110
+      },
+      {
+        "ref_m": 0.0,
+        "meas_m": 0.09,
+        "err_m": 0.09,
+        "std_m": 0.04,
+        "n": 110
+      }
+    ],
+    "rmse_m": 0.11,
+    "max_abs_err_m": 0.12,
+    "closure_m": 0.09,
+    "requests": 440,
+    "ok": 440,
+    "success_pct": 100.0,
+    "rtt_mean_ms": 22.4,
+    "rtt_median_ms": 22.1,
+    "rtt_p95_ms": 25.9,
+    "rtt_max_ms": 31.6
+  },
+  "tilt": {
+    "file": "tilt_20261025_140000_SIMULATED.csv",
+    "up_mean": 576.9,
+    "side_mean": 526.0,
+    "down_mean": 473.9,
+    "up_std": 1.23,
+    "side_std": 1.17,
+    "down_std": 1.33,
+    "counts_per_g": 51.5,
+    "zero_g_counts": 525.4,
+    "mg_per_count": 19.4,
+    "side_err_g": 0.011,
+    "noise_mg": 23.9,
+    "expected_counts_per_g": 105.5,
+    "expected_zero_g": 527,
+    "sensitivity_err_pct": -51.2
+  },
+  "range": {
+    "file": "range_20261025_140000_SIMULATED.csv",
+    "points": [
+      {
+        "d_m": 5.0,
+        "requests": 74,
+        "ok": 74,
+        "success_pct": 100.0,
+        "rtt_mean_ms": 21.4,
+        "rtt_median_ms": 21.0,
+        "rtt_p95_ms": 24.6,
+        "rtt_max_ms": 28.1
+      },
+      {
+        "d_m": 10.0,
+        "requests": 74,
+        "ok": 74,
+        "success_pct": 100.0,
+        "rtt_mean_ms": 24.9,
+        "rtt_median_ms": 24.1,
+        "rtt_p95_ms": 30.3,
+        "rtt_max_ms": 33.1
+      },
+      {
+        "d_m": 20.0,
+        "requests": 74,
+        "ok": 74,
+        "success_pct": 100.0,
+        "rtt_mean_ms": 34.0,
+        "rtt_median_ms": 33.5,
+        "rtt_p95_ms": 40.2,
+        "rtt_max_ms": 42.2
+      },
+      {
+        "d_m": 30.0,
+        "requests": 74,
+        "ok": 72,
+        "success_pct": 97.3,
+        "rtt_mean_ms": 57.9,
+        "rtt_median_ms": 58.2,
+        "rtt_p95_ms": 66.5,
+        "rtt_max_ms": 69.4
+      },
+      {
+        "d_m": 40.0,
+        "requests": 74,
+        "ok": 63,
+        "success_pct": 85.14,
+        "rtt_mean_ms": 210.9,
+        "rtt_median_ms": 207.6,
+        "rtt_p95_ms": 253.4,
+        "rtt_max_ms": 263.3
+      },
+      {
+        "d_m": 50.0,
+        "requests": 74,
+        "ok": 27,
+        "success_pct": 36.49,
+        "rtt_mean_ms": 684.8,
+        "rtt_median_ms": 677.3,
+        "rtt_p95_ms": 737.8,
+        "rtt_max_ms": 870.4
+      }
+    ],
+    "max_reliable_m": 30.0,
+    "max_tested_m": 50.0
+  },
+  "bench": {
+    "file": "bench_20261025_124907.csv",
+    "n": 8,
+    "duration_s": 16,
+    "alt_mean_m": -0.147,
+    "alt_std_m": 0.083,
+    "alt_min_m": -0.29,
+    "alt_max_m": 0.0,
+    "alt_p2p_m": 0.29,
+    "pressure_min_hpa": 1004.72,
+    "pressure_max_hpa": 1004.76,
+    "pressure_p2p_hpa": 0.04,
+    "pressure_p2p_as_m": 0.34,
+    "temp_c": 24.29,
+    "z_flat": 577.0,
+    "z_std": 0.0,
+    "z_base": 581.0,
+    "z_drop": 4.0,
+    "z_drop_g": 0.038,
+    "expected_z_flat_3v3": 632.5,
+    "expected_z_flat_3v0": 575
+  },
+  "power": {
+    "supply_v": 5.0,
+    "current_ma_streaming": 118,
+    "current_ma_idle": 79,
+    "power_mw": 590.0,
+    "battery_mah": 10000,
+    "runtime_h": 67.8
+  }
+}

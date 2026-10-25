@@ -1,0 +1,7 @@
+{
+  "source": "SIMULATED \u2014 replace with an inline USB power-meter reading when available",
+  "supply_v": 5.0,
+  "current_ma_streaming": 118,
+  "current_ma_idle": 79,
+  "battery_mah": 10000
+}
